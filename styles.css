@@ -1,0 +1,76 @@
+h1{
+    color:green;
+    font-size:10px;
+}
+
+.h1{
+    color:green;
+    font-size:10px;
+}
+
+#h1{
+    color:green;
+    font-size:10px;
+}
+
+.box{
+    background-color:yellow;
+    width:50%;
+    height:50%;
+    margin:20px 10px 5px 2px;
+    border:5px dashed black;
+ 
+    display: block;
+    display: inline-block;
+    display: inline;
+
+    position: static;
+    position: fixed;
+    position: absolute;
+    position: relative;
+    
+    
+}
+
+.box:hover{
+    background-color: black;
+}
+
+.box:active{
+    background-color: black;
+}
+
+.box:focus{
+    background-color: black;
+}
+
+container>.box{
+    컨테이너의 직계 box만 
+}
+
+.box:nth-child(3){
+    세번째 class box
+}
+
+html,body{
+    height:100%;
+}
+
+.father{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    align-items: center;
+    align-items: flex-end;
+    height:100%;
+
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    
+    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
+}
