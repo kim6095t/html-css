@@ -74,3 +74,51 @@ html,body{
     flex-wrap:wrap;
     flex-wrap:wrap-reverse;
 }
+
+
+#https://developer.mozilla.org/en-US/docs/Web/CSS/transition;
+.box1{
+    background-color:green;
+    color:write;
+    transition:background-color 5s ease-in-out;
+}
+
+.box1.hover{
+    background-color:red;
+}
+
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform;
+.box2{
+    width:500px;
+    height:1000px;
+    background-color: red;
+    transition: transform .5s ease-in-out;
+}
+
+.box2.hover{
+    transform:rotate(1turn) scale(.5 .5);
+}
+
+
+.box3{
+    animation:1.5s scaleAndRoatateSqure ease-in-out
+}
+@keyframes scaleAndRotateSquare{
+    0%{
+        transform:none;
+    }
+    50%{
+        transform: rotate(1turn) scale(.5 .5);
+        color:white;
+    }
+    100%{
+        transform:none;
+    }
+}
+
+@media screen and (min-widht:320px) and (max-width:640px){
+    body{
+        background-color:blue;
+    }
+}
