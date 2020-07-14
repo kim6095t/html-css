@@ -76,7 +76,7 @@ html,body{
 }
 
 
-#https://developer.mozilla.org/en-US/docs/Web/CSS/transition;
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition;
 .box1{
     background-color:green;
     color:write;
@@ -97,12 +97,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/transform;
 }
 
 .box2.hover{
-    transform:rotate(1turn) scale(.5 .5);
+    transform:rotate(1turn) scale(.5, .5);
 }
 
 
 .box3{
-    animation:1.5s scaleAndRoatateSqure ease-in-out
+    animation:1.5s scaleAndRoatateSqure infinite ease-in-out
 }
 @keyframes scaleAndRotateSquare{
     0%{
